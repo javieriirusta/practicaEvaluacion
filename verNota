@@ -1,5 +1,5 @@
 function verNota(nota) {
-    if (nota < 4) {
+    if (nota <= 4) {
         return "LIBRE"
     } else if (nota < 7, nota > 4) {
         return "REGULAR"
