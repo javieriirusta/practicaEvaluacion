@@ -8,5 +8,5 @@ function verNota(nota) {
     }
 }
 ////EJEMPLO////
-console.log(verNota(3));
+console.log(verNota(3))
 ////SALIDA: "LIBRE"////
