@@ -1,7 +1,7 @@
 function verNota(nota) {
     if (nota < 4) {
         return "LIBRE";
-    } else if (nota < 7; nota > 4) {
+    } else if (nota < 7, nota > 4) {
         return "REGULAR";
     } else if (nota > 6){
         return "PROMOCIONADO";
