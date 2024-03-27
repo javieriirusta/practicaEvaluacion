@@ -1,0 +1,17 @@
+function verNota(nota) {
+    if (nota < 4) {
+        return "LIBRE";
+    } else if (nota < 7; nota > 4) {
+        return "REGULAR";
+    } else if (nota > 6){
+        return "PROMOCIONADO";
+    }
+      if (nota<1, nota>10) {
+      return "ERROR";
+      }
+}
+////EJEMPLO////
+console.log(verNota(3));
+////SALIDA: "LIBRE"////
+console.log(verNota(11));
+  ///SALIDA: "ERROR"////
